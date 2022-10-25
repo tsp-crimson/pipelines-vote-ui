@@ -7,14 +7,17 @@ import random
 import json
 import requests
 
-option_a = os.getenv('OPTION_A', u"Cat 🐺")
-option_b = os.getenv('OPTION_B', u"Dog 🐶")
+# option_a = os.getenv('OPTION_A', u"Cat 🐺")
+# option_b = os.getenv('OPTION_B', u"Dog 🐶")
 
 # option_a = os.getenv('OPTION_A', u"Penguin 🐧")
 # option_b = os.getenv('OPTION_B', u"Giraffe 🦒")
 
 # option_a = os.getenv('OPTION_A', u"Elephant 🐘")
 # option_b = os.getenv('OPTION_B', u"Frog 🐸")
+
+option_a = os.getenv('OPTION_A', u"Dollar 💵")
+option_b = os.getenv('OPTION_B', u"Euro 💶")
 
 hostname = socket.gethostname()
 
